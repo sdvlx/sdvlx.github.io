@@ -4,12 +4,15 @@ body {
     font-style: normal;
     font-weight: 400;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .titel {
     margin-top: 150px;
     font-size: 40px;
     line-height: 47px;
+    font-weight: 700;
 }
 
 .tekstje {
@@ -20,7 +23,24 @@ body {
 }
 
 a {
-    color: #05081C;
+    color: #F4F2ED;
     text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
     margin-top: 50px;
+    background-color: #C67B5C;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#speciaal {
+    background-color: #497F87;
+}
+
+#letop {
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
