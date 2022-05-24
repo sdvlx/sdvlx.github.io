@@ -1,0 +1,26 @@
+body {
+    background-color: #F4F2ED;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.titel {
+    margin-top: 150px;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.tekstje {
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: #05081C;
+    text-decoration: none;
+    margin-top: 50px;
+}
