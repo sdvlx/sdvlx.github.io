@@ -250,6 +250,7 @@ nav.home {
 
 .contact-form {
     padding: 25px;
+    padding-right: 35px;
     background-color: #EFE8DC;
     border-radius: 5px;
     width: 40%;
@@ -642,12 +643,12 @@ input {
 
     .screens1 {
         position: relative;
-        left: -130px;
+        left: -210px;
     }
 
     .texts1 {
         position: relative;
-        left: -130px;
+        width: 200px;
         margin-top: 40%;
         text-align: right;
     }
@@ -663,6 +664,11 @@ input {
         position: relative;
         left: -130px;
         width: 200px;
+    }
+
+    .finalScreen {
+        width: 100%;
+        height: initial;
     }
 }
 
