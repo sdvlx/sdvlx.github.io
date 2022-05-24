@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>BESimplified</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.svg">
+</head>
+<body>
+    <div id="scherm">
+        <div class="volledigekaart">
+            <img class="kaart" src="./img/kaart.png" alt="foto van de kaart">
+            <img onclick="jumpToImg()" class="location1" src="./img/locatie.png" alt="icoon van locatie">
+            <img class="location2" src="./img/locatie.png" alt="icoon van locatie">
+        </div>
+        <footer class="navigatie">
+            <a class="navitem" href="./vrienden.html">
+                <img id="navicon1" class="navicon" src="./img/vriendenLeeg.svg" alt="leeg icoontje van vrienden">
+                <p class="navtext">Vrienden</p>
+            </a>
+
+            <a class="navitem" href="./stemmen.html">
+                <img id="navicon2" class="navicon" src="./img/stemmenLeeg.svg" alt="leeg icoontje van stemmen">
+                <p class="navtext">Stemmen</p>
+            </a>
+
+            <a class="navitem" id="navitem3" href="./profiel.html">
+                <img id="navicon3" class="navicon" src="./img/profielLeeg.svg" alt="vol icoontje van profiel">
+                <p class="navtext">Profiel</p>
+            </a>
+
+            <a class="navitem" href="./kaart.html">
+                <img id="navicon4" class="navicon" src="./img/kaartVol.svg" alt="leeg icoontje van kaart">
+                <p class="navtext">Kaart</p>
+            </a>
+
+            <a class="navitem" href="./nieuws.html">
+                <img id="navicon5" class="navicon" src="./img/nieuwsLeeg.svg" alt="leeg icoontje van nieuws">
+                <p class="navtext">Nieuws</p>
+            </a>
+        </footer>
+    </div>
+      
+</body>
+<script src="./js/main.js"></script>
+</html>
