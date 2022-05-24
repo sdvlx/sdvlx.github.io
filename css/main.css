@@ -1,7 +1,6 @@
 /* computer versie */
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 body {
@@ -11,8 +10,8 @@ body {
     font-weight: 400;
     color: #05081C;
     position: relative;
+    width: 100%;
     overflow-x: hidden;
-    
 }
 
 .boldText {
@@ -151,8 +150,7 @@ nav.home {
 
 
 .screenGrids {
-    margin-left: 5%;
-    margin-right: 5%;
+    overflow:hidden;
     margin-top: 10%;
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr;
@@ -337,8 +335,8 @@ input {
     line-height: 29px;
 }
 
-
 .blob {
+    overflow: hidden;
     position: absolute;
     z-index: -10;
     width: 791px;
@@ -351,6 +349,7 @@ input {
 }
 
 #leftBlob2 {
+    top: 500px;
     left: -200px;
 }
 
@@ -380,6 +379,7 @@ input {
 }
 
 #rightBlob8 {
+    bottom: 100px;
     right:-200px;
 }
 
@@ -387,6 +387,10 @@ input {
     left: -200px;
 }
 
+.wrapper {
+    overflow-x: hidden;
+    position: relative;
+}
 
 .downloadButton {
     display: none;
