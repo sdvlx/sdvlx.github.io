@@ -99,6 +99,7 @@ nav {
 }
 
 nav.home {
+    z-index: 100;
     top: 0;
     position: sticky;
     background-color: rgba(204,	136,	108, 0.1);
