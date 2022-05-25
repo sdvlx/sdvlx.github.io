@@ -261,12 +261,20 @@ body {
 }
 
 .navigatie {
-
+    background-color: #C67B5C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
     height: 76px;
 }
 
-.navigatie footer {
+.navigatieprof {
+    width: 100%;
+    height: 76px;
+}
+
+.navigatieprof footer {
     background-color: #C67B5C;
     display: flex;
     flex-direction: row;
